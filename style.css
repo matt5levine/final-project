@@ -1,5 +1,72 @@
 /* CSS for final project */
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+.kofi {
+  height: 50%;
+  width: 50%;
+}
 
 h1 {
-  color: blue;
+  color: #0088ce;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+
+h3 {
+  color: #0088ce;
+  text-align: center;
+
+}
+
+.court {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+h6 {
+  color: grey;
+  text-align: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+iframe {
+  height: 100%;
+  width: auto;
+  justify-content: center;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer a{
+  color: white;
+}
+
+.list {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
