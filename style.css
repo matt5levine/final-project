@@ -2,14 +2,17 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
+body {
+  padding: 20px;
+}
+
 .kofi {
-  height: 50%;
+  height: auto;
   width: 50%;
 }
 
 h1 {
   color: #0088ce;
-  font-family: 'Oswald', sans-serif;
 
 }
 
@@ -21,7 +24,7 @@ h3 {
 }
 
 .court {
-  width: 100%;
+  width: 50%;
   height: auto;
   padding: 20px;
 }
@@ -57,7 +60,7 @@ iframe {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: #0088ce;
     color: white;
     text-align: center;
 }
@@ -69,4 +72,8 @@ iframe {
 .list {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+
+.map {
+  width: 40%;
 }
