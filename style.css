@@ -2,36 +2,133 @@
 /* font-family: 'Oswald', sans-serif;
 font-family: 'Montserrat', sans-serif; */
 
+
 body {
-  padding: 20px;
+  padding-right: 160px;
+  padding-left: 160px;
+
 }
 
 .kofi {
   height: auto;
   width: 50%;
+  border: 1px solid black;
+
 }
 
 h1 {
   color: #0088ce;
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
 
+}
+
+h2 {
+  background-color: #0088ce;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 50px;
 }
 
 
 h3 {
   color: #0088ce;
   text-align: center;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
 
 }
 
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .court {
-  width: 50%;
+  width: 70%;
   height: auto;
-  padding: 20px;
+  padding: 10px;
+  border: 1px solid black;
+
 }
 
 h6 {
   color: grey;
   text-align: center;
+}
+
+a {
+  color: 0088ce;
+}
+
+.michigan {
+  height: 90px;
+  width: auto;
+}
+
+.purdue {
+  height: 80px;
+  width: auto;
+}
+
+.illinois {
+  height: 110px;
+  width: auto;
+}
+
+.osu {
+  height: 110px;
+  width: auto;
+}
+
+.umd {
+  height: 110px;
+  width: auto;
+}
+
+.msu {
+  height: 110px;
+  width: auto;
+}
+
+.iu {
+  height: auto;
+  width: 100px;
+}
+
+.rutgers {
+  height: 95px;
+  width: auto;
+}
+
+.iowa {
+  height: 18%;
+  width: 18%;
+}
+
+.wisco {
+  height: 25%;
+  width: 25%;
+}
+
+.neb {
+  height: 20%;
+  width: 20%;
+}
+
+.northwestern {
+  height: auto;
+  width: 80px;
+}
+
+.psu {
+  height: 17%;
+  width: 17%;
+}
+
+.minny {
+  height: 15%;
+  width: 15%;
 }
 
 img {
@@ -42,9 +139,6 @@ img {
   margin-right: auto;
 }
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
-}
 
 p {
   font-family: 'Montserrat', sans-serif;
@@ -54,6 +148,16 @@ iframe {
   height: 100%;
   width: auto;
   justify-content: center;
+}
+
+.kenpom {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.stats {
+  border: 1px solid black;
+  padding: 5px;
 }
 
 .footer {
@@ -72,8 +176,6 @@ iframe {
 .list {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-}
+  border: 2px black solid;
 
-.map {
-  width: 40%;
 }
